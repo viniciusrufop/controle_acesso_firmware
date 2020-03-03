@@ -253,7 +253,7 @@ Principal::~Principal(){
    {
       switch(getKeyPressValue())
       {
-         case 1: Tela::setAuxTroca(0x0C);break; // habilita trocar a data
+         case 1: Tela::setAuxTroca(0x0C);break; // conectar ao wi-fi
          case 2: RFID::setOpcaoRFID(0x01);Tela::setAuxRfid("cadastrar");Tela::setAuxTroca(0x0B); break;   // cadastrar nova tag
          case 3: RFID::setOpcaoRFID(0x02);Tela::setAuxRfid("remover");Tela::setAuxTroca(0x0B); break;   // remover tag
          case 4: Tela::setAuxDigiteSenha("novaSenhaMenu"); Tela::setAuxTroca(0x02);break;   // habilita trocar a senha
