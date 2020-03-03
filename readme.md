@@ -15,3 +15,7 @@ A variável `authToken` é obtida por um usuário administrador do sistema, bast
 # Compilar
 
 Para compilar o projeto e carrega-lo em uma placa de desenvolvimento ESP32, bata utilizar o editor de texto `VS Code` instalar a extensão [PlatformIO IDE](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide), carregar um projeto existente e selecionar a pasta onde foi feito o git clone deste repositório.
+
+# Montagem prática
+
+<img src="assets/img/montagem.jpeg" width="500">
